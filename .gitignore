@@ -11,3 +11,4 @@ artifacts/\[target\]_one_hot_encoder.joblib
 models/model.keras
 metrics/training.json
 metrics/evaluation.json
+mlruns/

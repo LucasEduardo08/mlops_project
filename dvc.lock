@@ -77,8 +77,8 @@ stages:
       size: 267794
     - path: src/model_training/train_model.py
       hash: md5
-      md5: 16882d4d228f2794f649f09e0a9c36fc
-      size: 5302
+      md5: 6c410101ef6f384a55ee79109a91080e
+      size: 6100
     params:
       params.yaml:
         train.batch_size: 32
@@ -98,7 +98,7 @@ stages:
       size: 139
     - path: models/model.keras
       hash: md5
-      md5: 473bcc09c070fddf11be03a44a45d90c
+      md5: 9e2efe1ae221cc3bd02f6b8649f335c2
       size: 79417
   evaluate:
     cmd: python -m src.model_evaluation.evaluate_model
@@ -113,12 +113,12 @@ stages:
       size: 67471
     - path: models/model.keras
       hash: md5
-      md5: 473bcc09c070fddf11be03a44a45d90c
+      md5: 9e2efe1ae221cc3bd02f6b8649f335c2
       size: 79417
     - path: src/model_evaluation/evaluate_model.py
       hash: md5
-      md5: 1300021eeca5193c758efb74cfff4814
-      size: 2514
+      md5: 1d726703c8f48ba812c8f6c8203b798e
+      size: 3285
     outs:
     - path: metrics/evaluation.json
       hash: md5
