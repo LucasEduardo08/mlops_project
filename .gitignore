@@ -12,3 +12,4 @@ models/model.keras
 metrics/training.json
 metrics/evaluation.json
 mlruns/
+.env
